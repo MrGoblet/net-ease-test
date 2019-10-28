@@ -1,7 +1,7 @@
 import React from 'react'
 
 function InputNumber( props ){
-  let value = props.defaultValue || props.value || null;
+  let value = props.value || props.defaultValue || null;
   return (
     <div>
       <input
